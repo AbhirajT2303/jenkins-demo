@@ -31,6 +31,9 @@ function Login() {
           className='form-control'
         />
       </div>
+      <div>
+        don't have account <a href="">Register here</a>
+      </div>
       <div className='mb-3'>
         <button onClick={onLogin} className='btn btn-success'>
           Login
