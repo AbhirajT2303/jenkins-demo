@@ -1,0 +1,5 @@
+FROM 172.18.5.58:5000/node  
+WORKDIR /usr
+COPY . .
+EXPOSE 3000
+CMD npm start
